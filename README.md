@@ -83,17 +83,8 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Configure environment variables
 
-Copy `.env.example` to `.env` and add your Groq API key.
-
-```env
-GROQ_API_KEY=your_groq_api_key
-GROQ_MODEL=openai/gpt-oss-120b
-```
-
-
-### 5. Run the application
+### 4. Run the application
 
 ```bash
 streamlit run app.py
